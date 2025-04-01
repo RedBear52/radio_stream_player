@@ -3,7 +3,7 @@
     <img src="../assets/kdhx-logo.png" alt="kdhx-logo" width="100" />
 
     <h1>Listen Live</h1>
-    <audio ref="audio"></audio>
+    <audio ref="audio" type=""></audio>
     <button :class="{ active: isPlaying }" @click="playStream">Play</button>
     <button :class="{ active: !isPlaying }" @click="stopStream">Stop</button>
   </div>
@@ -12,7 +12,7 @@
 <script>
 import { ref } from 'vue'
 
-const streamUrl = 'https://proxy-stream-server.onrender.com/proxy-stream'
+const streamUrl = 'https://proxy-stream-server.onrender.com/proxy-stream/live'
 // const streamUrl = 'http://kdhx-ice.streamguys1.com/live'
 
 export default {
