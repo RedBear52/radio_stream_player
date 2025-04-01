@@ -12,7 +12,8 @@
 <script>
 import { ref } from 'vue'
 
-const streamUrl = 'http://kdhx-ice.streamguys1.com/live'
+const streamUrl = 'https://proxy-stream-server.onrender.com/proxy-stream'
+// const streamUrl = 'http://kdhx-ice.streamguys1.com/live'
 
 export default {
   name: 'StreamPlayer',
